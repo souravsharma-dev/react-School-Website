@@ -1,6 +1,8 @@
 const Navbar = () => {
     return (
-        <div></div>
+        <div> 
+            <p>9718311000</p>
+        </div>
     )
 }
 

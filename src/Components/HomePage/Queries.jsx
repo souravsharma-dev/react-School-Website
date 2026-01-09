@@ -1,7 +1,9 @@
-const queries = () => {
+const Queries = () => {
     return (
-        <div></div>
+        <div>
+            <h1>For any Queries</h1>
+        </div>
     )
 }   
 
-export default queries;
+export default Queries;

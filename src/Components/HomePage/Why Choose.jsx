@@ -1,7 +1,9 @@
-const whychoose = () => {
+const Whychoose = () => {
     return (
-        <div></div>
+        <div>
+            <h1>Why Choose BS International School</h1>
+        </div>
     )
 }
 
-export default whychoose;
+export default Whychoose;
