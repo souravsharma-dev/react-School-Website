@@ -1,5 +1,6 @@
 import './App.css';
 import Topbar from './Components/HomePage/Topbar';
+import Navbar from './Components/HomePage/Navbar';
 import Hero from './Components/HomePage/Hero';
 import AboutUs from './Components/HomePage/About Us';
 import OurMessage from './Components/HomePage/Our  Message';
@@ -13,6 +14,7 @@ const App = () => {
   return(
     <>
     <Topbar></Topbar>
+    <Navbar> </Navbar>
     <Hero> </Hero>
     <AboutUs> </AboutUs>
     <OurMessage> </OurMessage>

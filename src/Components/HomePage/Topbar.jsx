@@ -1,5 +1,6 @@
 const Topbar = () => {
 return(
+    
     <div
     style={{
         display: 'flex',
@@ -14,13 +15,15 @@ return(
         gap: '8px',
         alignSelf: 'stretch'
     }}>
+
         <div
         style={{
             display: 'flex',
             alignItems: 'center',
-            gap: '3px'
+            gap: '8px'
         }}>
         <p>Plot No-26, Dalip Vihar, Chander Vihar, Nilothi Extension, Nangloi, Delhi – 110041 </p>
+        
          <p 
          style={{
             color: 'white', 
@@ -28,6 +31,7 @@ return(
             gap: '10px',
             paddingBottom: '5px'
             }}>|</p>
+        
         <img src="./images/facebookicon.png" alt="phone icon" style={{
             backgroundColor: 'white',
             display: 'flex',
