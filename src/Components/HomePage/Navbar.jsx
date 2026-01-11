@@ -30,6 +30,7 @@ const Navbar = () => {
             <div style={{
                 display: 'flex',
                 flexDirection: 'column',
+                fontSize: '20px',
             }}>
                 <p>9718311000 <br />9205501961</p>
             </div>
