@@ -31,6 +31,9 @@ const Navbar = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 fontSize: '20px',
+                backgroundColor: '#f0f0f0',
+                padding: '10px',
+                borderRadius: '5px',
             }}>
                 <p>9718311000 <br />9205501961</p>
             </div>
