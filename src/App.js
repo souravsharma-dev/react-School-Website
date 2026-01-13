@@ -1,21 +1,20 @@
 import './App.css';
-import Topbar from './Components/HomePage/Topbar';
-import Navbar from './Components/HomePage/Navbar';
-import Hero from './Components/HomePage/Hero';
+
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 import AboutUs from './Components/HomePage/About Us';
 import OurMessage from './Components/HomePage/Our  Message';
 import Ourfacilities from './Components/HomePage/Our Facilities ';
 import Guidelines from './Components/HomePage/Guidelines';
 import Whychoose from './Components/HomePage/Why Choose';
 import Queries from './Components/HomePage/Queries';
-import Footer from './Components/HomePage/Footer';
+import Footer from './Components/Footer';
 
 const App = () => {
   return(
     <>
-    <Topbar></Topbar>
     <Navbar> </Navbar>
-    <Hero> </Hero>
+    <Home />
     <AboutUs> </AboutUs>
     <OurMessage> </OurMessage>
     <Ourfacilities> </Ourfacilities>
