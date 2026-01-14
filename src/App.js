@@ -11,6 +11,8 @@ import ContactUs from './Components/ContactUs';
 
 const App = () => {
   return(
+
+    //Router Setup
    <BrowserRouter>
 
    <Routes>
