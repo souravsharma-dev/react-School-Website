@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
     return (
         
@@ -49,7 +51,6 @@ const Navbar = () => {
         {/* Main Navbar Section */}
          
         <div style={{
-            height: '184px',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -60,6 +61,9 @@ const Navbar = () => {
             <div style={{
                 display: "flex",
                 justifyContent: "space-between",
+                alignItems: "center",
+                width: '100%',
+                height: '65px',
                 
             }}>
                 <div style={{
@@ -124,12 +128,80 @@ const Navbar = () => {
 
                 </div>
 
-                <div style={{
-                        background: "blue"
-                    }}> 
-                    <h1>Admission Open for 2024-25</h1>
+            </div>
+            
+
+                    {/* Navigation Links */}
+             <div style={{
+                        display: "flex",
+                        padding: "20px 50px",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        backgroundColor: '#1B2945',
+                        textDecoration: 'none',
+                        }}> 
+
+                        <div style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '15px',
+                            /* Text Medium - 16 */
+                            fontFamily: 'Roboto',
+                            fontSize: '16px',
+                            fontStyle: 'normal',
+                            fontWeight: 500,
+                            lineHeight: 'normal',
+                        }}>
+                   <Link to='/' style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>Home </Link>
+                   <Link to='/AboutUs' style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>About Us</Link>
+                   <Link to='/facilities' style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>Facilities</Link>
+                   <Link to='/admission'style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>Admission</Link>
+                   <Link to='/schoolevents'style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>School Events</Link>
+                   <Link to='/docs'style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>Docs</Link>
                     </div>
-            </div></>
+
+                   <Link to='/contactus' style={
+                    {
+                        textDecoration: "none",
+                    color: 'white',
+                    padding: '10px 20px',
+                    backgroundColor: '#F95F00',
+                    borderRadius: '5px',
+                }
+                   }>Contact Us</Link>
+                    </div>
+                   
+                    </>
     )
 }
 
