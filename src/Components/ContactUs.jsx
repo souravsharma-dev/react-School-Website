@@ -1,6 +1,11 @@
+import Navbar from "./Navbar";
+
 const ContactUs = () => {
     return (
-        <div> </div>)
-    }
+        <div>
+            <Navbar />
+        </div>
+    )
+}
 
     export default ContactUs;
