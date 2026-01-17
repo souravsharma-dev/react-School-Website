@@ -43,6 +43,7 @@ const Home = () => {
 
             <div>
             <h1>Why Choose BS International School</h1>
+            <p>BS International School offers a comprehensive education that combines academic excellence with character development. Our experienced faculty, modern infrastructure, and student-centered approach ensure a well-rounded learning experience.</p>
             </div>        
 
             <Footer />
