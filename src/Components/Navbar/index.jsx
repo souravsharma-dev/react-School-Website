@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 const Navbar = () => {
     return (
         
-         <><div
+         <>
+         <div
             style={{
                 display: 'flex',
                 backgroundColor: '#1B2945',
@@ -190,7 +192,7 @@ const Navbar = () => {
                    }>Docs</Link>
                     </div>
 
-                   <Link to='/contactus' style={
+                   <Link to='/contactus' className="contact-btn" style={
                     {
                         textDecoration: "none",
                     color: 'white',
