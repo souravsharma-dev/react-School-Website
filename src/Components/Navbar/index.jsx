@@ -187,6 +187,7 @@ const Navbar = () => {
                    <Link to='/docs'style={
                     {
                         textDecoration: "none",
+                        borderRadius: '5px',
                     color: 'white'
                 }
                    }>Docs</Link>
