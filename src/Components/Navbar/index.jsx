@@ -196,6 +196,7 @@ const Navbar = () => {
                    <Link to='/contactus' className="contact-btn" style={
                     {
                         textDecoration: "none",
+                        fontSize: '16px',
                     color: 'white',
                     padding: '10px 20px',
                     backgroundColor: '#F95F00',
