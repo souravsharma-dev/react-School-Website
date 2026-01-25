@@ -199,7 +199,7 @@ const Navbar = () => {
                         fontSize: '16px',
                     color: 'white',
                     padding: '10px 20px',
-                    backgroundColor: '#F95F00',
+                    backgroundColor: '#F95F05',
                     borderRadius: '5px',
                 }
                    }>Contact Us</Link>
