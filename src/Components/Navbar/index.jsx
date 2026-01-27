@@ -115,7 +115,7 @@ const Navbar = () => {
                         flexDirection: 'column',
                         fontSize: '20px',
                         padding: '10px',
-                        borderRadius: '5px',
+                        borderRadius: '50px',
                     }}>
                         <p>bsis.school@gmail.com <br />Feel Free To Mail Us</p>
                     </div>
