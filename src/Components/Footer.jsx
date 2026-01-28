@@ -71,10 +71,22 @@ const Footer = () => {
 
                 </div>
 
-                <div style={{
-                    color: '#FFFFFF',
+                <div
+                style={{
+                     color: '#FFFFFF',
                 }}>
-                        <h1>Quick Links</h1>
+                        <h1 style={{
+                    fontSize: '16px',
+                    fontWeight: 'Medium'
+                }}>Quick Links</h1>
+                <hr style={{
+                    Color: "000000"
+                }}></hr>
+                
+                <p><img src='/images/icon.png' alt='Home Icon' /> Home</p>
+                 <p> <img src='/images/icon.png' alt='Home Icon' /> About BS International</p>
+                  <p> <img src='/images/icon.png' alt='Home Icon' /> Facilities</p>
+                   <p> <img src='/images/icon.png' alt='Home Icon' />Admission</p>
                 </div>
 
                 <div>
