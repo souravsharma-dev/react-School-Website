@@ -27,7 +27,8 @@ const Footer = () => {
                 display: 'flex',
                 width: '1200px',
                 justifyContent: 'space-between',
-                alignItems: 'flex-start'}}> 
+                alignItems: 'flex-start',
+                gap: '88px',}}> 
 
                 <div style={{
                     display: 'flex',
@@ -43,18 +44,21 @@ const Footer = () => {
                     }}>
                     <img src="/images/logo.png" alt="Logo" style={{ 
                         width: '50px', 
+                         gap: '30px',
                         height: '50px',
                         borderRadius: '50px' }} />
 
                         <h1 style={{
                             fontSize: '50px',
                             color: '#FFFFFF',
+                            
                             borderBottom: '2px solid #FFFFFF',
                         }}>BS</h1>
 
                         <p style={{
                             fontSize: '16px',
-                            color: '#FFFFFF'
+                            color: '#FFFFFF',
+                           
                         }}>International School</p>
 
                         </div>
@@ -62,7 +66,7 @@ const Footer = () => {
                         <p style={{
                             fontSize: '16px',
                             color: '#FFFFFF',
-                            width: '100%'
+                            width: '299px',
                         }}>A school with the right environment goes a long way in 
                         shaping the life of a student. The great efforts and 
                         sacrifices are involved in establishing and maintaining a 
@@ -77,16 +81,36 @@ const Footer = () => {
                 }}>
                         <h1 style={{
                     fontSize: '16px',
-                    fontWeight: 'Medium'
-                }}>Quick Links</h1>
+                    fontWeight: 'Medium',
+                    width: '363px',
+                }}>QUICK LINKS</h1>
                 <hr style={{
                     Color: "000000"
                 }}></hr>
                 
                 <p><img src='/images/icon.png' alt='Home Icon' /> Home</p>
                  <p> <img src='/images/icon.png' alt='Home Icon' /> About BS International</p>
+                 <p> <img src='/images/icon.png' alt='Home Icon' /> Teachers</p>
                   <p> <img src='/images/icon.png' alt='Home Icon' /> Facilities</p>
                    <p> <img src='/images/icon.png' alt='Home Icon' />Admission</p>
+                </div>
+
+                    <div
+                style={{
+                     color: '#FFFFFF',
+                }}>
+                        <h1 style={{
+                    fontSize: '16px',
+                    fontWeight: 'Medium',
+                    width: '363px',
+                }}>IMPORTANT LINKS</h1>
+                <hr style={{
+                    Color: "000000"
+                }}></hr>
+                
+                <p><img src='/images/icon.png' alt='Home Icon' /> School Rules and Regulations</p>
+                 <p> <img src='/images/icon.png' alt='Home Icon' /> Guidelines for Parents</p>
+                 <p> <img src='/images/icon.png' alt='Home Icon' /> Parent Teacher Meeting</p>
                 </div>
 
                 <div>
