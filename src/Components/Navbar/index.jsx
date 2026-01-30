@@ -184,16 +184,17 @@ const Navbar = () => {
                     color: 'white'
                 }
                    }>School Events</Link>
-                   <Link to='/docs'style={
+                   
+                   <Link to='/Teachers'style={
                     {
                         textDecoration: "none",
                         borderRadius: '5px',
                     color: 'white'
                 }
-                   }>Docs</Link>
+                   }>Teachers</Link>
                     </div>
 
-                   <Link to='/contactus' className="contact-btn" style={
+                   <Link to='/Teachers' className="contact-btn" style={
                     {
                         textDecoration: "none",
                         fontSize: '16px',

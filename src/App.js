@@ -6,8 +6,8 @@ import AboutUs from './Components/AboutUs';
 import Facilities from './Components/Facilities';
 import Admission from './Components/Admission';
 import SchoolEvents from './Components/SchoolEvents';
-import Docs from './Components/Docs';
 import ContactUs from './Components/ContactUs';
+import Teachers from './Components/Teachers';
 
 const App = () => {
   return(
@@ -21,7 +21,7 @@ const App = () => {
     <Route path="/Facilities" element={<Facilities />} />
     <Route path="/Admission" element={<Admission />} />
     <Route path="/SchoolEvents" element={<SchoolEvents />} />
-    <Route path="/Docs" element={<Docs />} />
+    <Route path="/Teachers" element={<Teachers />} />
     <Route path="/ContactUs" element={<ContactUs />} />
    </Routes>   
    
