@@ -44,14 +44,22 @@ const Teachers = () => {
                 gap: '20px'
             }}>
                 {
-                    teachers.map(function (item){ 
+                    teachers.map(function (item,index){ 
                         return (
-                            <div style={{
+                            <div key={index} style={{
                                 width: "20%",
                             }}>
-                           <img src={item.image} alt="Teacher Image" />
+                           <img src={item.image} alt={item.image} style={
+                            {
+                                height: '250px',
+                                width: '250px',
+                                alignSelf: "center"
+                            }
+                           } />
                            <h1>{item.name}</h1>
-                           <p>{item.subject}</p>
+                           <p style={{
+                            color: 'grey'
+                           }}>{item.subject} </p>
                            </div>
                         )
                     })
