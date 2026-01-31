@@ -1,11 +1,23 @@
 import Navbar from "./Navbar";
 
-const Teachers = () =>{
+const Teachers = () => {
     return (
-        
+
         <div>
             <Navbar />
-            <h1>Teacher</h1></div>
+
+            <section>
+                <div style={
+                    {
+                        Gap: "60px"
+                    }
+                }>
+                    <img src="teacher-image.jpg" alt="Teacher Image" />
+                    <h1>Teachers Name</h1>
+                    <p>Subject: Mathematics</p>
+                </div>
+            </section>
+        </div>
     )
 }
 
