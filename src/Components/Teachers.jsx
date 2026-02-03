@@ -59,7 +59,7 @@ const Teachers = () => {
                            <h1>{item.name}</h1>
                            <p style={{
                             color: 'white',
-                            background: 'red'
+                            background: 'black'
                             
                            }}>{item.subject} </p>
                            </div>
