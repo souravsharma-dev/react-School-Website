@@ -53,7 +53,7 @@ const Teachers = () => {
                             {
                                 height: '250px',
                                 width: '250px',
-                                alignSelf: "center"
+                                alignSelf: "left"
                             }
                            } />
                            <h1>{item.name}</h1>
