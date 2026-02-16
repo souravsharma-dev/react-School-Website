@@ -52,7 +52,7 @@ const Teachers = () => {
                            <img src={item.image} alt={item.image} style={
                             {
                                 height: '250px',
-                                width: '250px',
+                                width: '25px',
                                 alignSelf: "cente"
                             }
                            } />
