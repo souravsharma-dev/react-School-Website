@@ -1,7 +1,15 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
+import {useState} from 'react';
 
 const Home = () => {
+
+    const [data, setData] = useState(true);
+
+           const change = ()=>{
+            setData(!data)
+           }
+
     return (
         <div> 
             <Navbar />
@@ -13,7 +21,12 @@ const Home = () => {
                     }}
                 ></img>
             </div>
-           
+           <h1>React state</h1>
+           { data && <p>This is the data to test react state</p>}
+
+           <button onClick={change}>
+            {data ? "Hide Data" : "Show Data"}
+           </button>
            <div>
             <p>BS International School believes that education is not just about academics, but about shaping confident, responsible, and compassionate individuals. We provide a balanced learning environment where students are encouraged to explore, question, and grow.
 
