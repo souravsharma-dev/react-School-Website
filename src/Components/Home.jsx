@@ -22,13 +22,13 @@ const Home = () => {
                 ></img>
             </div>
            <h1>React state</h1>
-           { data && <p>This is the data to test react state</p>}
+           { data && <p>This is the dsata to test react state</p>}
 
            <button onClick={change}>
             {data ? "Hide Data" : "Show Data"}
            </button>
            <div>
-            <p>BS Internatironal School believes that education is not just about academics, but about shaping confident, responsible, and compassionate individuals. We provide a balanced learning environment where students are encouraged to explore, question, and grow.
+            <p>BS Internatirvonal School believes that education is not just about academics, but about shaping confident, responsible, and compassionate individuals. We provide a balanced learning environment where students are encouraged to explore, question, and grow.
 
                 With a strong foundation in values and modern teaching practices, we strive to create lifelong learners prepared for future challenges.</p>
           </div>
