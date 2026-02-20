@@ -22,7 +22,7 @@ const Home = () => {
                 ></img>
             </div>
            <h1>React state</h1>
-           { data && <p>This is the dsata to test react state</p>}
+           { data && <p>This is the dshata to test react state</p>}
 
            <button onClick={change}>
             {data ? "Hide Data" : "Show Data"}
