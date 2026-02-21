@@ -18,7 +18,7 @@ const Home = () => {
             <div>
                 <img src="./images/BS International Hero.png" alt="hero banner"
                     style={{
-                        width: '100%',
+                        width: '10%',
                         height: '550px',
                     }}
                 ></img>
