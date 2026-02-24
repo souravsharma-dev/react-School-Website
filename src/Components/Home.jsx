@@ -23,11 +23,11 @@ const Home = () => {
                     }}
                 ></img>
             </div>
-                    <h1>Font Size</h1>
+                    <h1>Font Sisze</h1>
                     <p style={{
                         fontSize: fontSize
                         }}>This is a sample paragraph with adjustable font size.</p>
-                        <button onClick={ ()=> {setFontSize(fontSize === 20 ? 80 : 20)}}>Change Font Size</button>
+                        <button onClick={ ()=> {setFontSize(fontSize === 20 ? 800 : 20)}}>Change Font Size</button>
 
            <h1>React state</h1>
            { data && <p>This is the dshata to test react state</p>}
