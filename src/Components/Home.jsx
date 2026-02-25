@@ -23,7 +23,7 @@ const Home = () => {
                     }}
                 ></img>
             </div>
-                    <h1>Font Sisze</h1>
+                    <h1>Font Size</h1>
                     <p style={{
                         fontSize: fontSize
                         }}>This is a sample paragraph with adjustable font size.</p>
