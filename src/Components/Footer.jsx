@@ -40,11 +40,12 @@ const Footer = () => {
                     <div style={{
                         display: 'flex',
                         alignItems: 'center',
+                        
                         gap: '10px',
                     }}>
                     <img src="/images/logo.png" alt="Logo" style={{ 
                         width: '50px', 
-                         gap: '30px',
+                        
                         height: '50px',
                         borderRadius: '50px' }} />
 
