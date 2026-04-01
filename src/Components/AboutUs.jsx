@@ -5,7 +5,7 @@ const AboutUs = () => {
         <div>
             <Navbar />
             <div>
-                <h1>About Us Component React XOX</h1>
+                <h1>About Us Component React XOXo</h1>
             </div>
         </div>
     )   
