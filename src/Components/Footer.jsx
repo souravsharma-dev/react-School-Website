@@ -89,7 +89,14 @@ const Footer = () => {
                     Color: "000000"
                 }}></hr>
                 
-                <p><img src='/images/icon.png' alt='Home Icon' /> Home</p>
+                <p><img src='/images/icon.png' alt='Home Icon' /> 
+                <Link to='/' style={
+                    {
+                        textDecoration: "none",
+                    color: 'white'
+                }
+                   }>Home </Link>
+                    Home</p>
                  <p> <img src='/images/icon.png' alt='Home Icon' /> About BS International</p>
                  <p> <img src='/images/icon.png' alt='Home Icon' /> Teachers</p>
                   <p> <img src='/images/icon.png' alt='Home Icon' /> Facilities</p>

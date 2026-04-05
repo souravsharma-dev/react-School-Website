@@ -192,9 +192,18 @@ const Navbar = () => {
                     color: 'white'
                 }
                    }>Teachers</Link>
+
+                   <Link to='/ContactUs'style={
+                    {
+                        textDecoration: "none",
+                        borderRadius: '5px',
+                    color: 'white'
+                }
+                   }>Contact Us</Link>
+
                     </div>
 
-                   <Link to='/Teachers' className="contact-btn" style={
+                   <Link to='/ContactUs' className="contact-btn" style={
                     {
                         textDecoration: "none",
                         fontSize: '16px',
