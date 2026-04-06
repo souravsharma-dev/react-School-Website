@@ -1,3 +1,4 @@
+import Swal from "sweetalert2";
 import {useState} from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -8,6 +9,13 @@ const ContactUs = () => {
     const [email, setEmail] = useState("");
     const [Message, setMessage] = useState("");
 
+    const ContactUs = (e) => {
+        e.preventDefault();
+        console.log(Fullname, email, Message);
+        Swal.fire({
+            title : 'Success'
+        });
+    }
 
     return (
         <div >
@@ -30,7 +38,9 @@ const ContactUs = () => {
                 backgroundColor: '#f2f2f2',
                 width: "50%",
             }}>   
-                <form style={{
+                <form 
+                onSubmit={ContactUs}
+                style={{
                     display: 'flex',
                     flexDirection: 'column',
                     padding: 20,
