@@ -102,7 +102,7 @@ const ContactUs = () => {
                 name="Message"
                 required
                 type='textarea'
-                placeholder="Enter Your Message"
+                placeholder="Enter Your Message Here"
                 rows= {4}
                 style={{
                     padding: 10,
