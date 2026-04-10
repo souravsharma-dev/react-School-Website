@@ -61,7 +61,7 @@ const SchoolEvents = () =>{
                             }}>
                                 <td style={
                                     {
-                                        padding: 10, border: '1px solid #ccc'
+                                        padding: 12, border: '1px solid #ccc'
                                     }}>{index+1}</td>
                                 <td style={{
                                     padding: 10, border: '1px solid #ccc'
