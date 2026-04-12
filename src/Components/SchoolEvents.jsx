@@ -64,13 +64,13 @@ const SchoolEvents = () =>{
                                         padding: 12, border: '1px solid #ccc'
                                     }}>{index+1}</td>
                                 <td style={{
-                                    padding: 10, border: '1px solid #ccc'
+                                    padding: 12, border: '1px solid #ccc'
                                 }}>{event.name}</td>
                                 <td style={{
-                                    padding: 10, border: '1px solid #ccc'
+                                    padding: 12, border: '1px solid #ccc'
                                 }}>{event.date}</td>
                                 <td style={{
-                                    padding: 10, border: '1px solid #ccc'
+                                    padding: 12, border: '1px solid #ccc'
                                 }}>{event.time}</td>
                             </tr>
                         ))}
