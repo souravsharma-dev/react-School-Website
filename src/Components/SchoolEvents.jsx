@@ -47,7 +47,7 @@ const SchoolEvents = () =>{
                         padding: '40'
                     }}>
                         <th>Sr No.</th>
-                    <th style={{padding:8}}>Event</th>
+                    <th style={{padding:8}}>Upcoming Event</th>
                     <th>Date</th>
                     <th>Time</th>
                     </tr>
